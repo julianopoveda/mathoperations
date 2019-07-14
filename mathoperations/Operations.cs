@@ -4,10 +4,7 @@ namespace mathoperations
 {
     public class Operations : IOperations
     {
-        public int Addition(int operatorA, int operatorB)
-        {
-            throw new NotImplementedException();
-        }
+        public int Addition(int operatorA, int operatorB) => operatorA + operatorB;
 
         public (int quotient, int remainder) Division(int dividend, int divider)
         {
